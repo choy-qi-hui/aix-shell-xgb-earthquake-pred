@@ -55,7 +55,9 @@ From the spatial distribution maps, there is a high concentration of wells in th
 XGBoost regression models were trained separately using the standard 80-10-10 train-val-test splits for each forecasting horizon. Predicted earthquake rates and magnitudes were then mapped using the geospatial grid to produce interpretable spatial visualisations.
 
 # Results
+## Prediction Maps
 ![Prediction Maps](vizs/pred_maps/final_preds.png)
+
 ## Model Performance
 | Output | RMSE | R^2 |
 | --- | --- | --- |
@@ -74,6 +76,7 @@ These trends indicate that XGBoost produces more stable and reliable forecasts o
 
 ## Feature Importance
 **SHAP beeswarm plots** were used to interpret the XGBoost models because they provide a clear, model-agnostic way to understand how each feature influences predictions. Unlike traditional feature-importance scores, SHAP shows both the strength and direction of each feature’s impact for every data point, allowing for a more transparent explanation of why the model behaves the way it does.
+![Combined Beeswarm](vizs/shap/combined_beeswarm.jpg)
 
 The XGBoost models highlight a clear set of operational and geological drivers behind seismic behaviour.
 - Earthquake rate: cumulative gas injected and produced, seasonal/time-based patterns, and total water injected → long-term fluid activity contributes to changes in subsurface pressure
