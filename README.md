@@ -46,6 +46,7 @@ Key features were created to capture temporal and operational dynamics, includin
 
 ### Exploratory Geospatial Analysis
 **Distribution maps** were generated to visualise well density and injection/production intensities across the LA Basin, highlighting regional patterns.
+
 ![Combined Well Injection Maps](vizs/distr_maps/combined_well_inj_maps.jpg)
 ![Combined Well Production Maps](vizs/distr_maps/combined_well_prod_maps.jpg)
 
@@ -76,6 +77,7 @@ These trends indicate that XGBoost produces more stable and reliable forecasts o
 
 ## Feature Importance
 **SHAP beeswarm plots** were used to interpret the XGBoost models because they provide a clear, model-agnostic way to understand how each feature influences predictions. Unlike traditional feature-importance scores, SHAP shows both the strength and direction of each feature’s impact for every data point, allowing for a more transparent explanation of why the model behaves the way it does.
+
 ![Combined Beeswarm](vizs/shap/combined_beeswarm.jpg)
 
 The XGBoost models highlight a clear set of operational and geological drivers behind seismic behaviour.
