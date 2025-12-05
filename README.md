@@ -4,7 +4,7 @@ This project is part of BlendED's AI+X Project-Based Learning (PBL), under the *
 ## Project Motivation and Purpose
 Human activities such as wastewater injection and fluid production can induce seismicity, with studies showing strong correlations between cumulative injection volumes and increased earthquake occurrences. Motivated by this link, this project applies Machine Learning to:
 1. Identify the **key factors** driving earthquake frequency and severity
-2. Forecast earthquake rates and magnitudes over **short- and long-term windows (3 months, 1 year, and 5 years)**
+2. Forecast **earthquake rates and magnitudes** over **short- and long-term windows (3 months, 1 year, and 5 years)**
 
 These forecasts can provide actionable insights for city planners and government agencies to strengthen earthquake preparedness.
 
