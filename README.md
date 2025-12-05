@@ -46,6 +46,8 @@ Key features were created to capture temporal and operational dynamics, includin
 
 ### Exploratory Geospatial Analysis
 **Distribution maps** were generated to visualise well density and injection/production intensities across the LA Basin, highlighting regional patterns.
+![Combined Well Injection Maps](vizs/distr_maps/combined_well_inj_maps.jpg)
+![Combined Well Production Maps](vizs/distr_maps/combined_well_prod_maps.jpg)
 
 From the spatial distribution maps, there is a high concentration of wells in the southern Los Angeles Basin. These wells exhibit substantial water and oil injection and production activity, while gas injection and production remain minimal across the region. This clustering highlights operational hotspots that may contribute more strongly to seismic responses.
 
@@ -53,6 +55,7 @@ From the spatial distribution maps, there is a high concentration of wells in th
 XGBoost regression models were trained separately using the standard 80-10-10 train-val-test splits for each forecasting horizon. Predicted earthquake rates and magnitudes were then mapped using the geospatial grid to produce interpretable spatial visualisations.
 
 # Results
+![Prediction Maps](vizs/pred_maps/final_preds.png)
 ## Model Performance
 | Output | RMSE | R^2 |
 | --- | --- | --- |
