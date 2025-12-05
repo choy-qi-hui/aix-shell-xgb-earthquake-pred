@@ -10,21 +10,21 @@ These forecasts can provide actionable insights for city planners and government
 
 ### Literature Review
 The direction of this project was guided by two key research studies:
-1. **Amini et al. (2024)** compared geological and operational predictors of induced seismicity using eight ML models, finding that depth to basement and total injection volume were strong predictors, with LightGBM and Random Forest performing best
-2. **Qin et al. (2022)** demonstrated the effectiveness of Random Forest for forecasting seismicity rates across multiple time windows, identifying pore pressure and poroelastic stress rates as key features
+1. [Amini et al. (2024)](https://link.springer.com/article/10.1007/s10596-024-10318-6) compared geological and operational predictors of induced seismicity using eight ML models, finding that depth to basement and total injection volume were strong predictors, with LightGBM and Random Forest performing best
+2. [Qin et al. (2022)](https://www.nature.com/articles/s41598-022-13435-3) demonstrated the effectiveness of Random Forest for forecasting seismicity rates across multiple time windows, identifying pore pressure and poroelastic stress rates as key features
 
 Building on these findings, this project adopts a similar predictive framing but extends the approach by using XGBoost, which is a fast, high-accuracy gradient boosting model, to evaluate factor importance and generate spatially visualised forecasts for the Los Angeles Basin.
 
 ## Dataset Overview
-Two datasets were provided for this project.
+Two datasets were provided for this project by the Project Lead.
 
-### 1. Well Injections and Production
+### 1. [Well Injections and Production](https://www.dropbox.com/scl/fo/wf8cer8k2c5u8l3sxpk3h/h?rlkey=ttpgz76fmy1aa5don3ayv1cpk&e=1&st=yceswnad&dl=0)
 | Aspect | Details |
 | --- | --- |
 | Description | Wells in the LA Basin with corresponding data on **water, gas and/or oil injection and production** occurrences (if any), from 1977–2018 |
 | Useful Columns | - **Well details**: Well #, latitude, longitude <br> - **Injection details**: Water injected, gas injected, surface injection pressure, reported date <br> - **Production details**: Oil produced, water produced, gas produced, gravity of oil, casing pressure, tubing pressure, reported date |
 
-### 2. Earthquake Catalog
+### 2. [Earthquake Catalog](https://service.scedc.caltech.edu/ftp/catalogs/SCEC_DC/)
 | Aspect | Details |
 | --- | --- |
 | Description | Southern California **earthquake occurrences** from 1932–2025, with their corresponding details |
