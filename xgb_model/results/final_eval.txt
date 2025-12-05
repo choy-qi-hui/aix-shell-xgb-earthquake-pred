@@ -1,0 +1,7 @@
+Final Evaluation Metrics
+earthquake_count_3m RMSE: 0.792, R^2: 0.367
+earthquake_count_1y RMSE: 0.464, R^2: 0.647
+earthquake_count_5y RMSE: 0.315, R^2: 0.842
+earthquake_avg_mag_3m RMSE: 0.072, R^2: 0.310
+earthquake_avg_mag_1y RMSE: 0.030, R^2: 0.262
+earthquake_avg_mag_5y RMSE: 0.008, R^2: 0.649
