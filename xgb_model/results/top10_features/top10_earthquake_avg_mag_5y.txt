@@ -1,0 +1,11 @@
+Top 10 features for earthquake_avg_mag_5y:
+Water or Steam Injected (bbl)_roll_mean_5y
+Water or Steam Injected (bbl)_roll_std_5y
+Magnitude
+Gas or Air Injected (Mcf)_roll_std_5y
+cum_gas_inj
+Gas or Air Injected (Mcf)_roll_mean_5y
+cum_oil_prod
+cum_gas_prod
+cum_water_prod
+Gas Produced (Mcf)_roll_std_5y

@@ -1,0 +1,11 @@
+Top 10 features for earthquake_count_5y:
+cum_gas_inj
+cum_gas_prod
+Water or Steam Injected (bbl)_roll_std_5y
+Casing Pressure
+cum_water_inj
+Surface Injection Pressure
+Oil Produced (bbl)_roll_std_5y
+cum_water_prod
+Gas or Air Injected (Mcf)_roll_std_5y
+Tubing Pressure

@@ -1,0 +1,11 @@
+Top 10 features for earthquake_count_3m:
+cum_gas_inj
+Month
+month_sin
+cum_gas_prod
+Water or Steam Injected (bbl)_roll_mean_1y
+Water or Steam Injected (bbl)_roll_std_1y
+month_cos
+Water or Steam Injected (bbl)_roll_mean_3m
+Days Well Injected
+Water or Steam Injected (bbl)_roll_std_5y

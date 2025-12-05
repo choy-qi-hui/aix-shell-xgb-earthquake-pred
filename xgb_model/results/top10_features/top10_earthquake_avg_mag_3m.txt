@@ -1,0 +1,11 @@
+Top 10 features for earthquake_avg_mag_3m:
+Magnitude
+Depth
+Magnitude Type
+Quality
+Gas Produced (Mcf)_roll_std_3m
+Gas or Air Injected (Mcf)_lag_3m
+Gas Produced (Mcf)_roll_mean_5y
+Water or Steam Injected (bbl)_roll_mean_5y
+month_sin
+Source of Water
